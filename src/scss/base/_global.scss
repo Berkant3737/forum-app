@@ -10,4 +10,22 @@ body {
     a {
         text-decoration: none;
     }
+    ul{
+        list-style: none;
+    }
+}
+
+.bg-{
+    &gray{
+        background-color: $gray;
+    }
+    &white{
+        background-color: $white;
+    }
+    &purple{
+        background-color: $purple;
+    }
+    &light{
+        background-color: $light;
+    }
 }
