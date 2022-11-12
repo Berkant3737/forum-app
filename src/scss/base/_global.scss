@@ -14,7 +14,22 @@ body {
         list-style: none;
     }
 }
-
+// button
+.btn-{
+    &purple{
+        background-color: $purple;
+        border: 2px solid transparent;
+        color: $white;
+        font-weight: bold;
+        transition: all .5s;
+        &:hover{
+            background-color: $purple;
+            color: $white;
+            border:2px solid $white;
+        }
+    }
+}
+// background color
 .bg-{
     &gray{
         background-color: $gray;
