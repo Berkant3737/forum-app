@@ -28,6 +28,17 @@ body {
             border:2px solid $white;
         }
     }
+    &outline-purple{
+        background-color: transparent;
+        border: 2px solid transparent;
+        color: $white;
+        transition: all .5s;
+        &:hover{
+            background-color: $purple;
+            color: $white;
+            border:2px solid $white;
+        }
+    }
 }
 // background color
 .bg-{
