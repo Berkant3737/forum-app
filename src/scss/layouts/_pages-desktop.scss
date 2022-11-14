@@ -1,50 +1,49 @@
 // user profile
-
-.user-profile-header{
+.user-profile-header {
     height: 40vh;
-    .user-profile-name{
+    .user-profile-name {
         height: 100%;
         width: 100%;
-        a{
-            font-size: .8rem;  
+        a {
+            font-size: .8rem;
         }
-        .active{
+        .active {
             color: #acace6;
         }
-        i{
+        i {
             color: $white;
             font-size: 8px;
             margin-top: 5px;
         }
     }
 }
-.user-profile{
+
+.user-profile {
     position: relative;
-    top: -60px; 
-    .user-profile-option{
-        
-        .user-profile-option-item{
-            .btn{
+    top: -60px;
+    .user-profile-option {
+        .user-profile-option-item {
+            .btn {
                 color: $dark;
                 font-weight: 500;
-                font-size: 1rem; 
+                font-size: 1rem;
                 transition: all .5s;
-                &.active{
+                &.active {
                     background-color: $purple !important;
                     color: $white !important;
                 }
-                &:hover{
+                &:hover {
                     background-color: $purple;
                     color: $white;
                 }
-            }   
+            }
         }
     }
-    .social{
-        a{
+    .social {
+        a {
             color: $dark;
         }
-        .fab{
+        .fab {
             border: 1px solid transparent;
             width: 35px;
             height: 35px;
@@ -52,7 +51,7 @@
             line-height: 35px;
             background-color: $light;
             transition: all .5s;
-            &:hover{
+            &:hover {
                 background-color: $purple;
                 color: $white;
                 cursor: pointer;
@@ -62,48 +61,52 @@
     }
 }
 
-
 // user profile
-
 // register
-
-#register-page{
+#register-page {
     position: relative;
     background: url(../pages/hamit/register/img/register-bg.jpg);
     background-position: center;
     background-size: cover;
     height: 100vh;
     opacity: .8;
-    &::before{
+    &::before {
         content: "";
         position: absolute;
         top: 0;
         left: 0;
         width: 100%;
         height: 100%;
-        background: -webkit-linear-gradient(left,rgba(0,168,255,0.5),rgba(185,0,255,0.5));
+        background: -webkit-linear-gradient(left, rgba(0, 168, 255, 0.5), rgba(185, 0, 255, 0.5));
         z-index: -1;
     }
-    .form-title{
+    .form-title {
         position: relative;
-        &::before{
+        &::before {
             content: "";
             position: absolute;
             bottom: -15px;
             left: 0;
             right: 0;
             margin: auto;
-            width: 60% ;
+            width: 60%;
             height: 3px;
             background-color: $purple;
-
         }
     }
-    .register-page-forms{
-        .register-form{
+    .register-page-forms {
+        .register-form {
             z-index: 5;
         }
     }
+}
+
+.register-form ul li {
+    display: flex !important;
+}
+
+.test {
+    color: red;
 }
 
 // register
