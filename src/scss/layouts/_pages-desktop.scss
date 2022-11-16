@@ -1,7 +1,7 @@
 // user profile
 .user-profile-header {
     height: 40vh;
-    background: url(../../pages/hamit/user-profile/img/deep-blue-background.jpg);
+    background-image: url(../../pages/hamit/user-profile/img/header-bg.jpg);
     .user-profile-name {
         height: 100%;
         width: 100%;
@@ -283,4 +283,6 @@
   opacity:.9;
   -webkit-animation-delay: 3.5s;
   -webkit-animation-timing-function:ease-in;
+}
+}
 }
