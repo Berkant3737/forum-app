@@ -230,6 +230,127 @@
 
 // login
 
+// Message box
+#message-box{
+    background-color: #000;
+    height: 100vh;
+    .message-box-content{
+        background-color: #1c1c1c;
+        width: 100%;
+        .message-box-menu{
+
+            & li{
+                position: relative;
+                overflow: hidden;
+                border-right: 2px solid #313131;
+                transition: all .5s;
+                
+                &.active{
+                    border-bottom: 3px solid #BB0000 !important;
+                    background-color: #313131;
+                    &::after{
+                        content: "";
+                        background-color: #BB0000;
+                        width: 10px;
+                        height: 10px;
+                        bottom:-5px;
+                        left: 0;
+                        right: 0;
+                        margin: auto;
+                        transform: rotate(45deg);
+                        position: absolute;   
+                    }
+                }
+                & a{
+                    height: 100%;
+                    height: 100%;
+                }
+                &:hover{
+                    background-color: #313131;
+                    cursor: pointer;
+                }
+            }
+        }
+    
+        .message-box-title{
+            & *{
+                margin: 0;
+                padding: 0;
+            }
+            background-color: #313131;
+            & ul{
+                & li {
+                    padding: 10px 8px;
+                    text-align: start;
+                    color: #bfbfbf;
+                    & h5{
+                        font-size: 15px;
+                    }
+                }
+            }  
+        }
+        .message-box-message{
+            *{
+                margin: 0;
+                padding: 0;
+                box-sizing: border-box;
+                line-height: 30px;
+            }
+            padding-right:20px;
+            & ul {
+                
+                & li{
+                    padding: 10px 8px;
+                    text-align: start !important;
+                    border-right: 1px solid #171717;
+                    border-bottom: 1px solid #171717;
+                    
+                }
+            }
+            & h5{
+                font-size: 15px;
+                margin: 0;
+                padding: 0;
+                color: #bfbfbf;
+                text-align: center;
+                & a{
+                    color: #bfbfbf;
+                    border-bottom: 1px solid transparent;
+                    transition: border-bottom .5s;
+                    
+                    &:hover{
+                        border-bottom: 1px solid #bfbfbf;
+                    }
+                }
+            }    
+        }
+    }
+}
+    
+@media screen and (max-width: 968px){
+    .message-box-title{
+        &-class,&-answer,&-eye,&-user-end{
+            display: none;
+        }
+    }
+    .message-box-message{
+        &-answer, &-eye, &-user-end{
+            display: none !important;
+        }
+        &-class{
+            margin: 0 !important;
+            & h5{
+                display: none;
+            }
+            & i{
+                padding: 1px 0px !important;
+            }
+        }
+    }
+}
+// Message box
+
+
 // snow efect
 
 .snowflakes {
