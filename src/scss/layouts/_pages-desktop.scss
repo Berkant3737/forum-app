@@ -327,7 +327,7 @@
     }
 }
     
-@media screen and (max-width: 968px){
+@media screen and (max-width: 992px){
     .message-box-title{
         &-class,&-answer,&-eye,&-user-end{
             display: none;
@@ -344,6 +344,7 @@
             }
             & i{
                 padding: 1px 0px !important;
+                margin: 0 auto !important;
             }
         }
     }
