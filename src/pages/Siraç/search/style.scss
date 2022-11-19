@@ -1,0 +1,31 @@
+#search {
+    width:1381px;
+    height: 250px;
+    background-image: url(/src/pages/Siraç/image/search-bg-2.png);
+    background-color: chocolate;
+}
+
+.search-button-bg {
+    background: #0d0d75;
+}
+
+.search-button-bg:hover {
+    background-color: white;
+    color: #0d0d75;
+}
+
+#searchbox {
+    width: 670px;
+    outline: none;
+}
+
+
+
+// NOT 
+// Arama kısmındaki border focus efekti ile kaldırılacak 
+
+
+.search-input-bg, .search-button-bg {
+    margin-top: 80px;
+}
+

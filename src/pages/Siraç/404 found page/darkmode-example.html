@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./dist/style.css">
+  </head>
+  <body>
+    <section id="search" >
+      <div  class="container">
+        <div  class="row justify-content-center  align-items-center">
+          <div  class="col-8 col-md-6 col-sm-4 search-input-bg">
+            <div class="p-3 mx-auto border rounded-pill bg-light">
+              <i class="bi bi-search text-muted"></i>
+              <input class=" border-0 " type="search" id="searchbox" name="search" placeholder="Search the Doc">
+            </div>
+          </div>
+          <div class="col-auto">
+            <div class="p-2 gx-auto">
+              <button type="submit" class="search-button-bg btn btn-primary rounded-pill btn-lg border-0 p-3">Search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+     <!-- JAVASCRİPT -->
+     <!-- DARK MODE JS CODE  -->
+    <script src="https://cdn.jsdelivr.net/npm/darkmode-js@1.5.7/lib/darkmode-js.min.js"></script>
+    <script>
+      function addDarkmodeWidget() {
+        new Darkmode().showWidget();
+      }
+      window.addEventListener('load', addDarkmodeWidget);
+    </script>
+<!-- DARK MODE JS CODE-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+  </body>
+</html>
