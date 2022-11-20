@@ -10,4 +10,16 @@ body {
     a {
         text-decoration: none;
     }
+    background-color: #131417;
+}
+
+ul li {
+    list-style-type: none;
+}
+
+.container {
+    max-width: 1280px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
 }

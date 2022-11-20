@@ -14,6 +14,41 @@
         border-radius: 50px;
     }
     input {
+        color: white;
         background: none;
+        &:focus {
+            outline: none;
+        }
+    }
+}
+
+
+/* Search */
+
+.recent-messages {
+    color: #c8ccd0;
+    .recent-messages-header {
+        width: 100%;
+        height: 70px;
+        background: rgba(76, 76, 241, 0.05);
+        border: 1px solid #2c303a;
+        border-top-left-radius: 6px;
+        border-top-right-radius: 6px;
+    }
+    .recent-messages-body {
+        border-top: 0;
+        li {
+            border: 1px solid #2c303a;
+            justify-content: center;
+        }
+        span {
+            a {
+                color: #c8ccd0;
+            }
+        }
+    }
+    img {
+        width: 30px;
+        height: 30px;
     }
 }
