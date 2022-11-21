@@ -1,5 +1,6 @@
 import React from 'react'
 import { BsChatLeftText } from 'react-icons/bs';
+import logo from "../../images/816993.jpg"
 function RecentMessages() {
   return (
     <div className="container mt-4">
@@ -25,9 +26,9 @@ function RecentMessages() {
         <div className="recent-messages-body p-0">
             <ol className='p-0 m-0'>
                 {/* LIST ITEM */}
-                <li className='row gx-0 py-2 ps-0 ps-lg-2'>
+                <li className='d-flex py-2 ps-0 ps-lg-2'>
                     <div className="col-auto d-flex align-items-center">
-                        <img src="https://spy.gen.tr/forum/data/avatars/s/39/39237.jpg?1605988975" alt="" />
+                        <img src={logo} alt="" />
                         <span className='ms-3'>
                              <a href="">Sıfırdan Html Dersleri | Block ve Inline Elementler</a>
                         </span>
@@ -40,6 +41,7 @@ function RecentMessages() {
                     </div>
                 </li>
                 {/* LIST ITEM */}
+                
             </ol>
         </div>
         {/* BODY */}
