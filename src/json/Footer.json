@@ -1,0 +1,18 @@
+[{
+        "icons": "<AiFillHome/>",
+        "text": "AnaSayfa"
+    },
+    {
+        "icons": "FaEnvelope",
+        "text": "Gönderileriniz"
+    },
+    {
+        "icons": "AiOutlineUser",
+        "text": "Profil"
+    },
+    {
+        "icons": "IoMdContacts",
+        "text": "Bize Ulaşın"
+    }
+
+]

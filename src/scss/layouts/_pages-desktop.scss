@@ -28,7 +28,6 @@
 .recent-messages {
     color: #c8ccd0;
     .recent-messages-header {
-        width: 100%;
         height: 70px;
         background: rgba(76, 76, 241, 0.05);
         border: 1px solid #2c303a;
@@ -36,20 +35,21 @@
         border-top-right-radius: 6px;
     }
     .recent-messages-body {
+        width: 100%;
         border-top: 0;
-        li {
-            border: 1px solid #2c303a;
-            justify-content: center;
-        }
-        span {
-            a {
-                color: #c8ccd0;
-            }
+        h6 {
+            font-weight: bold;
+            margin-top: 0;
+            margin-left: 0;
+            margin-bottom: 0;
         }
     }
     img {
         width: 30px;
         height: 30px;
+    }
+    .col-12.recent-messages-body.d-flex.align-items-center {
+        border: 1px solid #2c303a;
     }
 }
 
@@ -58,28 +58,15 @@
 
 .topics {
     color: #c8ccd0;
+    margin-top: 25px;
     .topics-header {
         width: 100%;
         height: 70px;
         background: rgba(76, 76, 241, 0.05);
-        border: 1px solid #2c303a;
         border-top-left-radius: 6px;
         border-top-right-radius: 6px;
     }
-    .topics-body {
-        border-top: 0;
-        li {
-            border: 1px solid #2c303a;
-            justify-content: center;
-        }
-        span {
-            a {
-                color: #c8ccd0;
-            }
-        }
-    }
-    img {
-        width: 30px;
-        height: 30px;
+    .col-12.recent-messages-body.d-flex.align-items-center {
+        border: 1px solid #2c303a;
     }
 }

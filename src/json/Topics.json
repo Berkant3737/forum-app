@@ -1,0 +1,37 @@
+[{
+        "img": "/images/html.png",
+        "title": "HTML",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+
+    },
+    {
+        "img": "/images/css3.png",
+        "title": "CSS",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "img": "/images/bootstrap.png",
+        "title": "BOOTSTRAP",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "img": "/images/javascript.png",
+        "title": "JAVASCRİPT",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "img": "/images/react.png",
+        "title": "REACT",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "img": "/images/nodejs.png",
+        "title": "NODE.JS",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    },
+    {
+        "img": "/images/python.png",
+        "title": "PYTHON",
+        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+    }
+]
