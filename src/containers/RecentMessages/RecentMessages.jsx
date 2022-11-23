@@ -10,7 +10,7 @@ function RecentMessages() {
                         <div className="col-6 d-inline-block">
                             <h6 className='fw-bold ms-2 my-0'>Yeni Mesajlar</h6>
                         </div>
-                        <div className="col-6 d-inline-flex justify-content-around">
+                        <div className="col-6 d-inline-flex justify-content-around d-none d-lg-inline-fle">
                             <h6 className='fw-bold ms-0 my-0'>Konu</h6>
                             <h6 className='fw-bold ms-0 my-0'>Beğeni</h6>
                             <h6 className='fw-bold ms-0 my-0'>Cevap</h6>

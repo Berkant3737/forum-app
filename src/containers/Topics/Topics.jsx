@@ -16,11 +16,11 @@ function Topics() {
             {TopicsJson.map((topics) => {
                 return(
                   <div className="col-12 recent-messages-body d-flex align-items-center">
-                      <div className="col-12 col-lg-6 d-flex px-2 py-3">
+                      <div className="col-12 col-lg-6 d-flex px-2 py-3 align-items-center">
                           <div className="col-auto">
                             <img src={topics.img} alt="" />
                           </div>
-                          <div className="col-auto w-100 ms-3">
+                          <div className="col-auto w-100 ms-2 ms-lg-3">
                             <h5 className='fw-bold mb-0 pb-0'>{topics.title} </h5>
                             <span>{topics.text}</span>
                         </div>

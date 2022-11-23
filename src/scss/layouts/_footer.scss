@@ -1,0 +1,30 @@
+.footer {
+    .social-icons {
+        li {
+            a {
+                width: 44px;
+                height: 44px;
+                color: #838793;
+                display: block;
+                text-align: center;
+                color: #838793;
+                font-size: 14px;
+                line-height: 45px;
+                border-radius: 10px;
+                transition: all 0.2s linear;
+                background: #2c303a;
+                margin-right: 22px;
+                &:hover {
+                    color: #4c4cf1;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+    span {
+        &:hover {
+            color: #4c4cf1;
+            transition: all 0.2s linear;
+        }
+    }
+}

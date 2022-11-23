@@ -15,9 +15,10 @@ function Navbar() {
         {NavbarJson.map((navbar) => {
               return(
                 <li class="nav-item p-2">
-                <a class="nav-link text-white" aria-current="page" href="#">
-                  {navbar.content}
-                </a></li>
+                  <a class="nav-link text-white" aria-current="page" href="#">
+                    {navbar.content}
+                  </a>
+                </li>
               )
             })}
       </ul>
