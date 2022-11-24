@@ -1,13 +1,17 @@
 [{
-        "content": "AnaSayfa"
+        "content": "AnaSayfa",
+        "link": "/anasayfa"
     },
     {
-        "content": "Gönderileriniz"
+        "content": "Gönderileriniz",
+        "link": "/gonderı"
     },
     {
-        "content": "Profil"
+        "content": "Profil",
+        "link": "/profil"
     },
     {
-        "content": "Bize Ulaşın"
+        "content": "Bize Ulaşın",
+        "link": "/bizeulasın"
     }
 ]

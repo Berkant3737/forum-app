@@ -4,6 +4,7 @@ import Home from "./pages/Home/Home"
 import AboutUs from './pages/AboutUs/AboutUs';
 import UserProfile from './pages/UserProfile/UserProfile';
 import UserPost from './containers/UserPost/UserPost';
+import Post from './pages/Post/Post';
 function App() {
   return (
     <div>
@@ -11,7 +12,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/aboutus" element={<AboutUs />} />
         <Route path="/profil" element={<UserProfile />} />
-        <Route path="/test" element={<UserPost />} />
+        <Route path="/userpost" element={<UserPost/>} />
+        <Route path="/topics-details" element={<Post/>} />
       </Routes>
     </div>
   )
