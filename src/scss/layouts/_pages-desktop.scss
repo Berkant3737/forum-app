@@ -70,3 +70,70 @@
         border: 1px solid #2c303a;
     }
 }
+
+// user profile
+.user-profile-header {
+    height: 40vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(76, 76, 241, 1) 25%, rgba(76, 76, 241, 1) 66%, rgba(0, 212, 255, 1) 100%);
+    .user-profile-name {
+        height: 100%;
+        width: 100%;
+        a {
+            font-size: .8rem;
+        }
+        .active {
+            color: rgb(184, 179, 179);
+        }
+        i {
+            color: white;
+            font-size: 8px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.user-profile {
+    position: relative;
+    top: -60px;
+    .user-profile-option {
+        .user-profile-option-item {
+            .btn {
+                color: dark;
+                font-weight: 500;
+                font-size: 1rem;
+                transition: all .5s;
+                &.active {
+                    background-color: $purple !important;
+                    color: white !important;
+                }
+                &:hover {
+                    background-color: $purple;
+                    color: #fff;
+                }
+            }
+        }
+    }
+    .social {
+        a {
+            color: dark;
+        }
+        .fab {
+            border: 1px solid transparent;
+            width: 35px;
+            height: 35px;
+            text-align: center;
+            line-height: 35px;
+            background-color: lightblue;
+            transition: all .5s;
+            &:hover {
+                background-color: purple;
+                color: white;
+                cursor: pointer;
+                border-color: purple;
+            }
+        }
+    }
+}
+
+// user profile
