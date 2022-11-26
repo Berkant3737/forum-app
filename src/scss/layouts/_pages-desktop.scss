@@ -169,8 +169,6 @@
 
 // user profile dark mode
 
-
-
 // user profile
 
 // register
@@ -458,6 +456,48 @@
     }
 }
 // Message box
+
+// comment line
+.comment-line{
+    background-color: #161723;
+    height: 100vh;
+    &-title{
+        border: 2px solid #2c303a;
+        background-color: #2c303a;
+    }
+    &-content{
+        border: 1px solid #2c303a;
+        img{
+            width: 70px;
+            height: 70px;
+            margin-left: 0;
+            margin-right: -50px;
+        }
+    }
+    span{
+        color: #2c303a;
+    }
+    .pagination{
+        .page-item{
+            margin: 0 10px;
+            .page-link{
+                background-color:#161723;
+                border-color: #2c303a;
+                color: #2c303a;
+                &.active{
+                    color: white;
+                    border-color: white;
+                }
+                &:hover{
+                    color: white;
+                    border-color: white;
+                }
+            }
+        }
+    }
+}
+
+// comment line
 
 
 // snow efect
