@@ -5,6 +5,7 @@ import AboutUs from './pages/AboutUs/AboutUs';
 import UserProfile from './pages/UserProfile/UserProfile';
 import UserPost from './containers/UserPost/UserPost';
 import Post from './pages/Post/Post';
+import PostDetails from './containers/PostDetails/PostDetails';
 function App() {
   return (
     <div>
@@ -14,6 +15,7 @@ function App() {
         <Route path="/profil" element={<UserProfile />} />
         <Route path="/userpost" element={<UserPost/>} />
         <Route path="/topics-details" element={<Post/>} />
+        <Route path="/post-details" element={<PostDetails/>} />
       </Routes>
     </div>
   )

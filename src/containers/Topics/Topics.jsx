@@ -21,7 +21,7 @@ function Topics() {
                             <img src={topics.img} alt="" />
                           </div>
                           <div className="col-auto w-100 ms-2 ms-lg-3">
-                            <h5 className='fw-bold mb-0 pb-0'>{topics.title} </h5>
+                            <a href="/post-details"><h5 className='fw-bold mb-0 pb-0'>{topics.title} </h5></a>
                             <span>{topics.text}</span>
                         </div>
                       </div>
