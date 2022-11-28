@@ -6,7 +6,6 @@ function UserProfile() {
   return (
     <div>
         <Navbar/>
-        
     </div>
   )
 }

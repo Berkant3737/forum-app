@@ -28,17 +28,62 @@ function PostDetails() {
                     </div>
                  {/* HEADER */}
                 {/* BODY */}
-                    <div className="col-12 post-details-body d-flex align-items-center">
+                    <div className="col-12 post-details-body d-block d-lg-flex align-items-center">
                         <div className="col-12 col-lg-6 d-inline-block px-2 py-3">
                             <div className="d-flex align-items-center">
                                 <img src={logo} alt="" />
                                 <a href="/userpost"><h6 className='fw-normal ps-3 mb-0 pb-0'>SIFIRDAN JAVASCRİPT DERSLERİ</h6></a>
                                 </div>
                             </div>
-                            <div className="col-12 col-lg-6 d-none d-lg-inline-flex justify-content-around">
-                              <h6 className='w-25 text-center'><i><FaHeart/></i> 10</h6>
-                              <h6 className='w-25 text-center'><i><BsChat/></i> 10</h6>
-                              <h6 className='w-25 text-center'><i><BsEye/></i> 10</h6>
+                            <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-around pb-2 pb-lg-0">
+                            <h6 className='w-25 text-center'><i><FaHeart/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsChat/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsEye/></i> 10</h6>
+                        </div>
+                    </div>
+                {/* BODY */}
+                {/* BODY */}
+                    <div className="col-12 post-details-body d-block d-lg-flex align-items-center">
+                        <div className="col-12 col-lg-6 d-inline-block px-2 py-3">
+                            <div className="d-flex align-items-center">
+                                <img src={logo} alt="" />
+                                <a href="/userpost"><h6 className='fw-normal ps-3 mb-0 pb-0'>SIFIRDAN JAVASCRİPT DERSLERİ</h6></a>
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-around pb-2 pb-lg-0">
+                            <h6 className='w-25 text-center'><i><FaHeart/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsChat/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsEye/></i> 10</h6>
+                        </div>
+                    </div>
+                {/* BODY */}
+                {/* BODY */}
+                    <div className="col-12 post-details-body d-block d-lg-flex align-items-center">
+                        <div className="col-12 col-lg-6 d-inline-block px-2 py-3">
+                            <div className="d-flex align-items-center">
+                                <img src={logo} alt="" />
+                                <a href="/userpost"><h6 className='fw-normal ps-3 mb-0 pb-0'>SIFIRDAN JAVASCRİPT DERSLERİ</h6></a>
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-around pb-2 pb-lg-0">
+                            <h6 className='w-25 text-center'><i><FaHeart/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsChat/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsEye/></i> 10</h6>
+                        </div>
+                    </div>
+                {/* BODY */}
+                {/* BODY */}
+                    <div className="col-12 post-details-body d-block d-lg-flex align-items-center">
+                        <div className="col-12 col-lg-6 d-inline-block px-2 py-3">
+                            <div className="d-flex align-items-center">
+                                <img src={logo} alt="" />
+                                <a href="/userpost"><h6 className='fw-normal ps-3 mb-0 pb-0'>SIFIRDAN JAVASCRİPT DERSLERİ</h6></a>
+                                </div>
+                            </div>
+                            <div className="col-12 col-lg-6 d-flex justify-content-center justify-content-lg-around pb-2 pb-lg-0">
+                            <h6 className='w-25 text-center'><i><FaHeart/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsChat/></i> 10</h6>
+                            <h6 className='w-25 text-center'><i><BsEye/></i> 10</h6>
                         </div>
                     </div>
                 {/* BODY */}
