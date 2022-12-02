@@ -3,3 +3,6 @@
 @import "./layouts/navbar";
 @import "./layouts/footer";
 @import "./layouts/pages-desktop";
+@media (max-width: 750px) {
+    @import "./layouts/pages-mobile";
+}
