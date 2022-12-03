@@ -567,6 +567,79 @@
     }
 }
 // contact
+
+
+//user post
+.user-post{
+    .form-group{
+        margin-top: 10px ;
+        min-width: 350px;
+        margin-left: auto;
+        margin-right: auto;
+        & h6{
+            font-weight: bold;
+        }
+        & input{
+            padding: 10px 10px;
+            background-color: $light;
+            border-color: #dddddd;
+            &:focus{
+               box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+            }
+        }
+        & textarea{
+            padding: 10px 10px;
+            background-color: $light;
+            border-color: #ddd;
+            &:focus{
+               box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+            }
+        }
+        & button{
+            border: none;
+            margin: 10px 0 20px;
+            padding: 10px 0;
+            font-size: 16px;
+            &:hover{
+                box-shadow: rgba(0, 17, 255, 0.4) 0px 20px 25px -5px, rgba(0,17,255, 0.04) 0px 10px 10px -5px;
+            }
+        }
+    }
+}
+// dark mode
+.user-post.dark-mode{
+    background-color: #161723;
+    color: white;
+    .form-group{
+        margin-top: 10px ;
+        & h6{
+            font-weight: bold;
+        }
+        & input{
+            padding: 10px 10px;
+            background-color: white;
+            border-color: white;
+            &:focus{
+               box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+            }
+        }
+        & textarea{
+            padding: 10px 10px;
+            background-color: white;
+            border-color: white;
+            &:focus{
+               box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+            }
+        }
+        & button{
+            border: none;
+            &:hover{
+                box-shadow: rgba(0, 132, 255, 0.4) 0px 20px 25px -5px, rgba(0,132,255, 0.04) 0px 10px 10px -5px;
+            }
+        }
+    }
+}
+//user post
 // snow efect
 
 .snowflakes {
