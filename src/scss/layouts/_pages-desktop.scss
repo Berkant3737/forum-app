@@ -130,3 +130,174 @@
 
 
 /* POST DETAİLS */
+
+// user profile
+.user-profile-header {
+    height: 40vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgba(0, 212, 255, 1) 0%, rgba(76, 76, 241, 1) 25%, rgba(76, 76, 241, 1) 75%, rgba(0, 212, 255, 1) 100%);
+    .user-profile-name {
+        height: 100%;
+        width: 100%;
+        a {
+            font-size: .8rem;
+        }
+        .active {
+            color: rgb(184, 179, 179);
+        }
+        i {
+            color: white;
+            font-size: 8px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.user-profile-content {
+    background-color: $light;
+    height: 100%;
+    .container {
+        position: relative;
+        top: -60px;
+    }
+    .user-profile {
+        .profile-left {
+            background-color: white;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .profile-right {
+            background-color: white;
+            color: $dark;
+            border-radius: 10px;
+            height: 100%;
+        }
+        .user-profile-option {
+            .user-profile-option-item {
+                .btn {
+                    color: $dark;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    transition: all .5s;
+                    border: 1px solid transparent;
+                    display: block;
+                    text-align: left;
+                    border-radius: 50px;
+                    &.active {
+                        background-color: $purple;
+                        color: white;
+                    }
+                    &:hover {
+                        background-color: $purple;
+                        color: white;
+                    }
+                }
+            }
+        }
+        .social {
+            margin-top: 93px;
+            a {
+                color: $dark;
+            }
+            .fab {
+                border: 1px solid transparent;
+                width: 35px;
+                height: 35px;
+                text-align: center;
+                line-height: 35px;
+                background-color: $light;
+                transition: all .5s;
+                &:hover {
+                    background-color: $purple;
+                    color: white;
+                    cursor: pointer;
+                    border-color: $purple;
+                }
+            }
+        }
+    }
+}
+
+// user profile dark mode
+.user-profile-header.dark-mode {
+    height: 40vh;
+    background: rgb(2, 0, 36);
+    background: linear-gradient(90deg, rgb(44, 48, 58) 0%, rgb(22, 23, 35) 25%, rgb(22, 23, 35) 75%, rgb(44, 48, 58) 100%);
+    .user-profile-name {
+        height: 100%;
+        width: 100%;
+        a {
+            font-size: .8rem;
+        }
+        .active {
+            color: rgb(184, 179, 179);
+        }
+        i {
+            color: white;
+            font-size: 8px;
+            margin-top: 5px;
+        }
+    }
+}
+
+.user-profile-content.dark-mode {
+    background-color: #161723;
+    height: 100%;
+    .user-profile {
+        .profile-left {
+            background-color: #2c303a;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .profile-right {
+            background-color: #2c303a !important;
+            color: white;
+            border-radius: 10px;
+        }
+        .user-profile-option {
+            .user-profile-option-item {
+                .btn {
+                    color: white;
+                    font-weight: 500;
+                    font-size: 1rem;
+                    transition: all .5s;
+                    border: 1px solid white;
+                    display: block;
+                    text-align: left;
+                    border-radius: 50px;
+                    &.active {
+                        background-color: white !important;
+                        color: $dark !important;
+                    }
+                    &:hover {
+                        background-color: white;
+                        color: $dark;
+                    }
+                }
+            }
+        }
+        .social {
+            a {
+                color: $dark;
+            }
+            .fab {
+                border: 1px solid transparent;
+                width: 35px;
+                height: 35px;
+                text-align: center;
+                line-height: 35px;
+                background-color: $light;
+                transition: all .5s;
+                &:hover {
+                    background-color: #161723;
+                    color: white;
+                    cursor: pointer;
+                    border-color: white;
+                }
+            }
+        }
+    }
+}
+
+// user profile dark mode
+// user profile

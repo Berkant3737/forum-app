@@ -5,4 +5,5 @@
 @import "./layouts/pages-desktop";
 @media (max-width: 750px) {
     @import "./layouts/pages-mobile";
+    @import "./layouts/navbar-mobile";
 }
