@@ -184,11 +184,11 @@
                     text-align: left;
                     border-radius: 50px;
                     &.active {
-                        background-color: $purple;
+                        background-color: #4c4cf1;
                         color: white;
                     }
                     &:hover {
-                        background-color: $purple;
+                        background-color: #4c4cf1;
                         color: white;
                     }
                 }
@@ -208,10 +208,10 @@
                 background-color: $light;
                 transition: all .5s;
                 &:hover {
-                    background-color: $purple;
+                    background-color: #4c4cf1;
                     color: white;
                     cursor: pointer;
-                    border-color: $purple;
+                    border-color: #4c4cf1;
                 }
             }
         }
@@ -301,3 +301,207 @@
 
 // user profile dark mode
 // user profile
+
+
+/* Contact us */
+.contact-us{
+    label{
+        color: white;
+        padding: 5px;
+        font-weight: bolder;
+    }
+    .btn{
+        color: #fff;
+        background: #4c4cf1;
+        font-size: 16px;
+        font-weight: bolder;
+        padding: 15px 40px;
+        border-radius: 4px;
+    }
+}
+/* Contact us */
+// Form Page Register and Login
+
+
+#login-form-page{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, rgb(44, 48, 58) 0%, rgb(22, 23, 35) 25%, rgb(22, 23, 35) 75%, rgb(44, 48, 58) 100%);
+        // z-index: -1;
+    }
+    .form-page{
+        position: relative;
+        box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(255, 255, 255, 0.3) 0px 2px 6px 2px; 
+        z-index: 5;
+        .form-page-left{
+            background-color: rgb(45, 46, 126);
+            border-right: 4px solid $white;
+            border-bottom: 4px solid $white;
+            position: relative;
+            color: $white;
+            height: 110%;
+            width: 110%;
+            .form-page-texts{
+                width:95%;
+                height: 100%;
+            }
+            .form-page-text{
+               z-index: 5;
+               font-size: 15px;
+                & a{
+                    color: $white;
+                    border: 2px solid $white;
+                    transition: all .5;
+                    font-weight: bold;
+                    transition: all .5s;
+                    &:hover{
+                       color: $purple;
+                       background-color: $white;
+                       border: 2px solid $purple;
+                    }
+                }
+            }
+        } 
+        .form-page-right{
+            form.register-form-page{
+                width: 100%;
+                height: 400px;
+                ul{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                li{
+                    display: flex;
+                }
+                }
+            }
+            & .forgotten-password{
+                color: #0d6efd;
+            }
+            
+        }
+        .form-page-items{
+            ul{
+                li{
+                    display: flex;
+                    margin-bottom: 25px;
+                }
+            }
+        }   
+    }
+}
+
+#form-page{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    &::after {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(90deg, rgb(44, 48, 58) 0%, rgb(22, 23, 35) 25%, rgb(22, 23, 35) 75%, rgb(44, 48, 58) 100%);
+        // z-index: -1;
+    }
+    .form-page{
+        position: relative;
+        box-shadow: rgba(255, 255, 255, 0.3) 0px 1px 2px 0px, rgba(255, 255, 255, 0.3) 0px 2px 6px 2px; 
+        z-index: 5;
+        .form-page-left{
+            background-color: rgb(45, 46, 126);
+            border-right: 4px solid $white;
+            border-bottom: 4px solid $white;
+            position: relative;
+            color: $white;
+            height: 110%;
+            width: 110%;
+            .form-page-texts{
+                width:95%;
+                height: 100%;
+            }
+            .form-page-text{
+               z-index: 5;
+               font-size: 15px;
+                & a{
+                    color: $white;
+                    border: 2px solid $white;
+                    transition: all .5;
+                    font-weight: bold;
+                    transition: all .5s;
+                    &:hover{
+                       color: $purple;
+                       background-color: $white;
+                       border: 2px solid $purple;
+                    }
+                }
+            }
+        } 
+        .form-page-right{
+            form.register-form-page{
+                width: 100%;
+                height: 400px;
+                ul{
+                height: 100%;
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-around;
+                li{
+                    display: flex;
+                }
+                }
+            }
+            
+        }
+        .form-page-items{
+            & .forgotten-password{
+                text-align: end;
+                a{
+                    position: relative;
+                    color: $white;
+                    padding-bottom: 2px;
+                    transition: all .5s;
+                    &::after{
+                        content: "";
+                        position: absolute;
+                        bottom: -.3rem;
+                        left: 0;
+                        right: 0;
+                        margin:auto;
+                        width: 0;
+                        height: 1px;
+                        background-color: $white;
+                        transition: all .5s;
+                    }
+                    &:hover{
+                        &::after{
+                            width: 100%;
+                        }
+                    }
+                }
+            }
+        }
+      
+    }
+}
+
+#login-successful{
+    display: none;
+}
+#login-failed{
+    display: none;
+}

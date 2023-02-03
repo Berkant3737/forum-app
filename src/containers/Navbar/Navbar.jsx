@@ -6,7 +6,7 @@ function Navbar() {
     <div>
       <nav class="navbar sticky-top navbar-expand-lg">
         <div class="container">
-          <a class="navbar-brand" href="#">
+          <a class="navbar-brand" href="/">
             Forum App
           </a>
           <button
