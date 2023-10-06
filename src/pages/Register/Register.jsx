@@ -38,7 +38,7 @@ function Register() {
                                                     <input type="password" className="form-control rounded-3" placeholder="Şifreniz" onChange={e => updateData("password", e.target.value)} value={form.password}/>
                                                 </li>
                                                 <li>
-                                                    <button type="submit" id="submit " className="btn btn-purple col rounded-3 ">Kayıt Ol</button>
+                                                    <button type="submit" id="submit" className="btn btn-purple col rounded-3 ">Kayıt Ol</button>
                                                 </li>
                                             </ul>
                                         </form>

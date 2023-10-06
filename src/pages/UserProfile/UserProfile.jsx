@@ -64,13 +64,13 @@ function UserProfile() {
                             <h6 className="fw-bold">İsim Soyisim :</h6>
                           </div>
                           <div className="col-6 col-lg-9 my-2 p-0">
-                            <span className="">Hamit DAĞ</span>
+                            <span className="">User Name</span>
                           </div>
                           <div className="col-6 col-lg-3 my-2">
                             <h6 className="fw-bold">E-posta :</h6>
                           </div>
                           <div className="col-6 col-lg-9 my-2 p-0">
-                            <span className="">hamitdag@outlook.com</span>
+                            <span className="">user@gmail.com</span>
                           </div>
                         </div>
 

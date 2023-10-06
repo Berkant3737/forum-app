@@ -6,7 +6,7 @@ function useLogin() {
         email: '',
         password: ''
     })
-    const setDataPartialy = (key, value) => {
+    const updateData = (key, value) => {
         setData({
             ...data,
             [key]: value
@@ -20,7 +20,7 @@ const handleSubmit= (event) =>{
     event.preventDefault();
 }
 
-return [data, setDataPartialy, handleSubmit]
+return [data, updateData, handleSubmit]
 }
 
 export default useLogin
